@@ -1,0 +1,41 @@
+BELAJAR JAVASCRIPT DOM (Document Object Model) ------------------------------------------------------------------------
+
+MATERI 1 --------------------------------------------------------------------------------------------------------------
+    "DOM adalah antarmuka pemrograman untuk HTML yang merepresentasikan halaman web, sehingga program dapat 
+    mengubah dan memanipulasi strukturnya" - Mozilla
+
+    "Representasi elemen HTML pada dokumen menjadi sebuah obejct" - Sandhika Galih
+
+    Pohon Hirarki DOM / DOM Tree 
+
+    <html>  ~> <head>   ~> <title> 
+                        ~> <meta> 
+                        ~> <meta>
+            ~> <body>   ~> <h1>
+                        ~> <p>  -> <a>
+                        ~> <ul> -> <li>
+                                -> <li>
+                                -> <li>
+
+*Recap 
+    DOM : - Antarmuka pemrograman berbasis objek yang mempresentasikan dokumen web
+          - DOM membuat seluruh komponen dari halaman web dapat diakses & dimanipulasi
+          - Komponen yang dapat diakses & dimanipulasi:
+                > elemen HTML       > Atribut       > Text      > dll
+          - DOM dapat dimanipulasi (dibuat,diubah,dihapus) menggunakan javascript 
+
+    Materi di seri ini :
+        - DOM Selection
+        - DOM Manipulation
+        - DOM Traversal
+        - Event Handling
+        - Studi Kasus ~> membuat program2 sederhana
+    
+    *pre-requisite / yang harus dipelajari:
+        - HTML
+        - CSS
+        - Javascript
+
+
+*catatan
+    - tiap tiap tag diatas disebut simpul/node yang bentuknya object dan mereka pasti di bawah document
