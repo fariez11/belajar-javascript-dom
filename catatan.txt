@@ -36,6 +36,5 @@ MATERI 1 -----------------------------------------------------------------------
         - CSS
         - Javascript
 
-
 *catatan
     - tiap tiap tag diatas disebut simpul/node yang bentuknya object dan mereka pasti di bawah document
