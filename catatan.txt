@@ -58,4 +58,12 @@ MATERI 2 -----------------------------------------------------------------------
         ex: body adalah parent dari h1,p,p,div dan a
     - Child Node
         > node yang berada dibawah node yang lain
-        ex: h1 adalah child dari body 
+        ex: h1 adalah child dari body
+
+MATERI 3 ---------------------------------------------------------------------------------------------------------------------
+    DOM Selection Method
+    - getElementById()           ~> hasil: element
+    - getElementByTagName()      ~> hasil: HTMLCollection
+    - getElementByClassName()    ~> hasil: HTMLCollection
+    - querySelector()            ~> hasil: element
+    - querySelectorAll()         ~> hasil: nodeList
