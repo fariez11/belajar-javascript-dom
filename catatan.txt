@@ -60,10 +60,10 @@ MATERI 2 -----------------------------------------------------------------------
         > node yang berada dibawah node yang lain
         ex: h1 adalah child dari body
 
-MATERI 3 ---------------------------------------------------------------------------------------------------------------------
+MATERI 3 & 4 -------------------------------------------------------------------------------------------------------------------
     DOM Selection Method
     - getElementById()           ~> hasil: element
-    - getElementByTagName()      ~> hasil: HTMLCollection
-    - getElementByClassName()    ~> hasil: HTMLCollection
+    - getElementsByTagName()      ~> hasil: HTMLCollection
+    - getElementsByClassName()    ~> hasil: HTMLCollection
     - querySelector()            ~> hasil: element
     - querySelectorAll()         ~> hasil: nodeList
