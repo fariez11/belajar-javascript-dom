@@ -67,3 +67,23 @@ MATERI 3 & 4 -------------------------------------------------------------------
     - getElementsByClassName()    ~> hasil: HTMLCollection
     - querySelector()            ~> hasil: element
     - querySelectorAll()         ~> hasil: nodeList
+
+MATERI 5 -----------------------------------------------------------------------------------------------------------------------
+    DOM MANIPULATION
+
+    - Manipulation element
+        > element.innerHTML
+        > element.style.<property>
+        > element.setAttribute()
+        > element.classList
+        > ...
+MATERI 6 -----------------------------------------------------------------------------------------------------------------------
+    - Manipulation node
+        > document.createElement()
+        > document.createTextNode()
+        > node.appendChild()
+        > node.insertBefore()
+        > parentNode.removeChild()
+        > parentNode.replaceCHild()
+        > ...
+
