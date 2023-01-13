@@ -90,3 +90,26 @@ MATERI 6 -----------------------------------------------------------------------
 *catatan
     method DOM lainnya : https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model
 
+MATERI 7 -----------------------------------------------------------------------------------------------------------------------
+    DOM Events
+    "Events pada javascript merepresentasikan sebuah kejadian yang terjadi didalam DOM...
+    
+            ... kejadiannya tersebut bisa dilakukan oleh user(mouse event, keyboard event, dll),
+    
+    ataupun dilakukan otomatis oleh API (animasi selesai dijalankan,halaman selesai di load, dll)"
+
+    Cara menerapkan Event
+    - Event Handler
+        > Inline HTML Attribute (tidak disarankan)
+        > Element method
+    - addEventListener()
+
+    perbedaan diatas
+    - Event Handler : dia akan menimpa event yang dibuat sebelumnya (yang dieksekusi hanya event yang terakhir dibuat)
+    - addEventListener : semua event yang lama tidak akan tertimpa dengan yang baru (event yang dibuat akan dieksekusi semuanya)
+
+    Daftar Event 
+    - Mouse Event       - Keyboard Event        - Resource Event        - Focus Event       - View Event
+    - CSS Animation & Transtion Event           - Drag & Drop Event     - dll...
+    
+    https://developer.mozilla.org/en-US/docs/Web/Events
