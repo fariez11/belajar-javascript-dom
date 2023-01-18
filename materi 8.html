@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan DOM</title>
+
+    <style>
+        html,body{
+            height: 100%;
+            width: 100%;
+        }
+        body{
+            text-align: center;
+        }
+
+        .biru-muda{
+            background-color: lightblue;
+        }
+        button{
+            margin : 5px;
+        }
+        .kotak{
+            height: 30px;
+            width: 30px;
+            margin: 10px auto;
+            border-radius: 100%;
+        }
+        .red{
+            background-color: red;
+        }
+        .green{
+            background-color: green;
+        }
+        .blue{
+            background-color: blue;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Bermain dengan warna</h1>
+    <button type="button" id="btnUbahWarna">Ubah Background</button>
+    <br>
+    <table align="center">
+        <tr>
+            <td>
+                <div class="kotak red"></div>
+                <input type="range" name="red" min="1" max="255">
+            </td>
+            <td>
+                <div class="kotak green"></div>
+                <input type="range" name="green" min="1" max="255">
+            </td>
+            <td>            
+                <div class="kotak blue"></div>
+                <input type="range" name="blue" min="1" max="255">
+            </td>
+        </tr>
+    </table>
+
+    
+
+
+</body>
+
+<script src="materi 8.js"></script>
+</html>
