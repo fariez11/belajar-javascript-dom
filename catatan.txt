@@ -113,3 +113,15 @@ MATERI 7 -----------------------------------------------------------------------
     - CSS Animation & Transtion Event           - Drag & Drop Event     - dll...
     
     https://developer.mozilla.org/en-US/docs/Web/Events
+
+MATERI 8 -----------------------------------------------------------------------------------------------------------------------
+MATERI 9 -----------------------------------------------------------------------------------------------------------------------
+MATERI 10 ----------------------------------------------------------------------------------------------------------------------
+DOM Traversal (Penelusuran DOM)
+    Method :
+    - parentNode (belum tentu element HTML)  ~> mengembalikan hasil : node
+    - parentElement (pasti element HTML)     ~> mengembalikan hasil : element
+    - nextSibling                            ~> mengembalikan hasil : node
+    - nextElementSibling                     ~> mengembalikan hasil : element
+    - previousSibling                        ~> mengembalikan hasil : node
+    - previousElementSibling                 ~> mengembalikan hasil : element
